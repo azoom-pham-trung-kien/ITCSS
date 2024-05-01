@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "sass:dev": "sass --watch --embed-source-map scss/index.scss:css/index.css"
+  },
+  "devDependencies": {
+    "sass": "^1.76.0"
+  }
+}

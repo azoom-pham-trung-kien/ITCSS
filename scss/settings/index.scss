@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Fira Mono";
+  src: url(../../font/FiraMono-Regular.ttf);
+}
+
+$color-white: #e9e9e9;
+$color-gray: #333;
+$color-blue: #0367a6;
+$color-lightblue: #008997;
+
+$font-family-code: "Fira Mono", monospace;
+
+$form-max-width: 758px;
+$form-max-height: 420px;
+
+// font size
+$desktop-base-font-size: 16px;
+$mobile-base-font-size: 14px;
+/* RADII */
+$button-radius: 0.7rem;
+
+// break-point
+$tablet-break-point: 768px;
+$mobile-break-point: 375px;
+
+// line-height
+$link-line-height: 18px;

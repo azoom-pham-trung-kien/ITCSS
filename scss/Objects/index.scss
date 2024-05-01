@@ -1,0 +1,51 @@
+.btn {
+  background-color: $color-blue;
+  background-image: linear-gradient(
+    90deg,
+    $color-blue 0%,
+    $color-lightblue 74%
+  );
+  border-radius: $button-radius;
+  border: 1px solid $color-blue;
+  color: $color-white;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 0.9rem 4rem;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  &:active {
+    transform: scale(0.95);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.input {
+  background-color: $color-white;
+  border: none;
+  padding: 0.9rem 0.9rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.link {
+  color: $color-gray;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  text-decoration: none;
+}
+
+.wrapper {
+  background-color: $color-white;
+  border-radius: $button-radius;
+  box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+    0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+  height: $form-max-height;
+  max-width: $form-max-width;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
